@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 40" width="800" height="40" role="img" aria-label="animated divider">
+  <path d="M0,20 L300,20 L320,20 L340,8 L360,32 L380,14 L400,26 L420,20 L500,20 L800,20" fill="none" stroke="#3be8ff" stroke-opacity="0.5" stroke-width="2"/>
+  <path d="M0,20 L300,20 L320,20 L340,8 L360,32 L380,14 L400,26 L420,20 L500,20 L800,20" fill="none" stroke="#ff7ad9" stroke-width="2" stroke-dasharray="40 760" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="800" to="0" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle r="4" fill="#ff7ad9">
+    <animateMotion path="M0,20 L300,20 L320,20 L340,8 L360,32 L380,14 L400,26 L420,20 L500,20 L800,20" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <g fill="#a78bfa">
+    <circle cx="40" cy="20" r="3" opacity="0.9"/>
+    <circle cx="760" cy="20" r="3" opacity="0.9"/>
+  </g>
+  <g fill="none" stroke="#3be8ff" stroke-opacity="0.4">
+    <circle cx="40" cy="20" r="7">
+      <animate attributeName="r" values="7;11;7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="20" r="7">
+      <animate attributeName="r" values="11;7;11" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
