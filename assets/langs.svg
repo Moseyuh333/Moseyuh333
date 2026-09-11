@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" width="400" height="320" role="img" aria-label="Language breakdown">
+  <rect width="400" height="320" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <text x="24" y="40" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="bold" fill="#ff7ad9">Most used languages</text>
+
+  <!-- bars: total 37 repos approx -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="13">
+    <!-- Python 30% -->
+    <text x="24" y="80" fill="#c9d1d9">Python</text>
+    <rect x="120" y="68" width="200" height="16" rx="8" fill="#3572A5"/>
+    <text x="330" y="81" fill="#8b949e">30%</text>
+    <!-- Java 22% -->
+    <text x="24" y="116" fill="#c9d1d9">Java</text>
+    <rect x="120" y="104" width="146" height="16" rx="8" fill="#b07219"/>
+    <text x="276" y="117" fill="#8b949e">22%</text>
+    <!-- HTML 14% -->
+    <text x="24" y="152" fill="#c9d1d9">HTML</text>
+    <rect x="120" y="140" width="94" height="16" rx="8" fill="#e34c26"/>
+    <text x="224" y="153" fill="#8b949e">14%</text>
+    <!-- TypeScript 12% -->
+    <text x="24" y="188" fill="#c9d1d9">TypeScript</text>
+    <rect x="120" y="176" width="80" height="16" rx="8" fill="#3178c6"/>
+    <text x="210" y="189" fill="#8b949e">12%</text>
+    <!-- Kotlin 8% -->
+    <text x="24" y="224" fill="#c9d1d9">Kotlin</text>
+    <rect x="120" y="212" width="54" height="16" rx="8" fill="#A97BFF"/>
+    <text x="184" y="225" fill="#8b949e">8%</text>
+    <!-- C 6% -->
+    <text x="24" y="260" fill="#c9d1d9">C / ASM</text>
+    <rect x="120" y="248" width="40" height="16" rx="8" fill="#555555"/>
+    <text x="170" y="261" fill="#8b949e">6%</text>
+    <!-- GDScript 5% -->
+    <text x="24" y="296" fill="#c9d1d9">GDScript</text>
+    <rect x="120" y="284" width="34" height="16" rx="8" fill="#3555A5"/>
+    <text x="164" y="297" fill="#8b949e">5%</text>
+  </g>
+</svg>

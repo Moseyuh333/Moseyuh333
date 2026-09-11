@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 120" width="700" height="120" role="img" aria-label="Now playing: are u ok? by VOSZA">
+  <a href="https://www.youtube.com/watch?v=ssHmtIpRQ5s" target="_blank">
+    <rect width="700" height="120" rx="16" fill="#0d1117" stroke="#30363d"/>
+    <rect width="700" height="120" rx="16" fill="url(#npGlow)"/>
+    <defs>
+      <radialGradient id="npGlow" cx="0.15" cy="0.5" r="0.9">
+        <stop offset="0" stop-color="#ff7ad9" stop-opacity="0.12"/>
+        <stop offset="1" stop-color="#ff7ad9" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+
+    <!-- spinning vinyl -->
+    <g transform="translate(58,60)">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" repeatCount="indefinite"/>
+        <circle r="38" fill="#111"/>
+        <circle r="38" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+        <circle r="28" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+        <circle r="18" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+        <!-- label -->
+        <circle r="13" fill="#ff7ad9"/>
+        <circle r="3" fill="#0d1117"/>
+        <line x1="0" y1="-36" x2="0" y2="-28" stroke="#333" stroke-width="2"/>
+      </g>
+    </g>
+
+    <!-- now playing text -->
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="118" y="38" font-size="11" fill="#8b949e" letter-spacing="2">NOW PLAYING ♪</text>
+      <text x="118" y="64" font-size="19" font-weight="bold" fill="#ffffff">are u ok?</text>
+      <text x="118" y="86" font-size="14" fill="#ff7ad9">VOSZA</text>
+      <text x="118" y="104" font-size="11" fill="#8b949e">click to listen on YouTube →</text>
+    </g>
+
+    <!-- equalizer -->
+    <g transform="translate(560,30)">
+      <g fill="#3be8ff">
+        <rect x="0"   y="40" width="7" height="30" rx="3"><animate attributeName="height" values="30;50;15;40;30" dur="1s"   repeatCount="indefinite"/><animate attributeName="y"      values="40;20;55;30;40" dur="1s"   repeatCount="indefinite"/></rect>
+        <rect x="14"  y="30" width="7" height="40" rx="3" fill="#ff7ad9"><animate attributeName="height" values="40;18;52;30;40" dur="0.9s" begin="0.1s" repeatCount="indefinite"/><animate attributeName="y"      values="30;52;18;40;30" dur="0.9s" begin="0.1s" repeatCount="indefinite"/></rect>
+        <rect x="28"  y="45" width="7" height="25" rx="3" fill="#52f0a8"><animate attributeName="height" values="25;45;12;38;25" dur="1.1s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="y"      values="45;25;58;32;45" dur="1.1s" begin="0.2s" repeatCount="indefinite"/></rect>
+        <rect x="42"  y="25" width="7" height="45" rx="3" fill="#a78bfa"><animate attributeName="height" values="45;22;50;35;45" dur="0.85s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="y"      values="25;48;20;35;25" dur="0.85s" begin="0.3s" repeatCount="indefinite"/></rect>
+        <rect x="56"  y="35" width="7" height="35" rx="3" fill="#3be8ff"><animate attributeName="height" values="35;52;18;42;35" dur="1.05s" begin="0.15s" repeatCount="indefinite"/><animate attributeName="y"      values="35;18;52;28;35" dur="1.05s" begin="0.15s" repeatCount="indefinite"/></rect>
+        <rect x="70"  y="42" width="7" height="28" rx="3" fill="#ff7ad9"><animate attributeName="height" values="28;46;14;36;28" dur="0.95s" begin="0.25s" repeatCount="indefinite"/><animate attributeName="y"      values="42;24;56;34;42" dur="0.95s" begin="0.25s" repeatCount="indefinite"/></rect>
+        <rect x="84"  y="28" width="7" height="42" rx="3" fill="#52f0a8"><animate attributeName="height" values="42;20;50;32;42" dur="1.15s" begin="0.05s" repeatCount="indefinite"/><animate attributeName="y"      values="28;50;20;38;28" dur="1.15s" begin="0.05s" repeatCount="indefinite"/></rect>
+      </g>
+    </g>
+  </a>
+</svg>
