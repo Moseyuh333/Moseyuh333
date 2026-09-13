@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 128" width="800" height="128" role="img">
+<defs>
+  <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0a0e16"/>
+  </linearGradient>
+</defs>
+<rect width="800" height="128" rx="14" fill="url(#cardbg)"/>
+<rect x="0.5" y="0.5" width="799" height="127" rx="13.5" fill="none" stroke="#30363d"/>
+<text x="24" y="34" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#c9d1d9">GITHUB METRICS</text>
+<text x="776" y="34" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="11" fill="#8b949e" text-anchor="end">auto-refreshed daily</text>
+<rect x="24" y="44" width="46" height="3" rx="1.5" fill="#ff7ad9"/>
+<rect x="24" y="68" width="4" height="40" rx="2" fill="#3be8ff" opacity="0.85"/><text x="40" y="98" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">39</text><text x="40" y="118" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="11.5" fill="#8b949e">public repositories</text><rect x="213" y="68" width="4" height="40" rx="2" fill="#ff7ad9" opacity="0.85"/><text x="229" y="98" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">8</text><text x="229" y="118" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="11.5" fill="#8b949e">stars earned</text><rect x="402" y="68" width="4" height="40" rx="2" fill="#52f0a8" opacity="0.85"/><text x="418" y="98" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">23</text><text x="418" y="118" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="11.5" fill="#8b949e">PRs merged</text><rect x="591" y="68" width="4" height="40" rx="2" fill="#a78bfa" opacity="0.85"/><text x="607" y="98" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">500</text><text x="607" y="118" font-family="Segoe UI, -apple-system, Arial, sans-serif" font-size="11.5" fill="#8b949e">contributions / 12 mo</text></svg>

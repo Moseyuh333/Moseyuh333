@@ -1,3 +1,6 @@
 profile.html
 verify.sh
 push2.sh
+.dev/
+__pycache__/
+*.pyc
