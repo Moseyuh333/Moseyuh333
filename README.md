@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner_anime.gif" alt="Escape — Kurokotei" width="800"/>
+<img src="assets/banner_anime.png" alt="Escape — Kurokotei" width="800"/>
 
 <sub>Art — <a href="https://imgur.com/gallery/escape-kurokotei-vzwzpZ7">“Escape” by Kurokotei</a></sub>
 

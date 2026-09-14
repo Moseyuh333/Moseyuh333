@@ -45,7 +45,8 @@ def gh_graphql(query):
 
 # ---------------------------------------------------------------- fetch
 def fetch_data():
-    u = gh_get("/user")
+    # NOTE: Actions' GITHUB_TOKEN can't call /user (installation token) — use the public user endpoint
+    u = gh_get(f"/users/{USER}")
     data = {"repos": u["public_repos"], "followers": u["followers"],
             "stars": 0, "pr_open": 0, "pr_merged": 0,
             "lang_counts": {}, "weekly": [], "contrib_total": 0}
